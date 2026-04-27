@@ -33,7 +33,7 @@ function App() {
       </section>
 
       {/* Divider */}
-      <div className="w-full h-1 bg-linear-to-r from-blue-300 via-purple-300 to-blue-300 rounded my-6 max-w-2xl"></div>
+      <div className="w-full h-1 bg-linear-to-r from-blue-700 via-purple-300 to-blue-300 rounded my-6 max-w-2xl"></div>
 
       {/* Next Steps Section */}
       <section className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-4xl">
