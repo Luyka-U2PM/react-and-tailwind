@@ -1,4 +1,16 @@
-# React + Vite
+
+# React + Vite + Tailwind
+
+
+## Tailwind CSS
+
+This project uses [Tailwind CSS](https://tailwindcss.com/) and the `@tailwindcss/vite` plugin version ^4.2.4.
+
+Installed packages:
+
+- tailwindcss
+- @tailwindcss/vite ^4.2.4
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
