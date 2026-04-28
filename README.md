@@ -1,3 +1,4 @@
+
 # React + Vite + Tailwind CSS
 
 A modern starter setup for building React applications using Vite and Tailwind CSS.  
@@ -32,14 +33,17 @@ npm run preview
 
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold text-blue-600">
-      Hello Tailwind!
-    </h1>
+     <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-blue-50 to-purple-100">
+      <div className="bg-white rounded-2xl shadow-2xl border-2 border-blue-200 px-12 py-10 flex flex-col items-center">
+        <h1 className="text-3xl font-bold text-blue-600 mb-0">Hello Tailwind!</h1>
+      </div>
+    </div>
   )
 }
 
 ## Project structure
 
+```text
 /
 ├── src/
 │   ├── assets/
@@ -50,6 +54,15 @@ export default function App() {
 ├── vite.config.js
 ├── eslint.config.js
 └── README.md
+```
+
+
+## Keywords
+
+React, Vite, Tailwind CSS, React starter, Vite template, Tailwind boilerplate, modern React, fast React setup, frontend starter, JavaScript, web development
+
+## Description:
+ A modern, minimal, and fast React starter template using Vite and Tailwind CSS. Perfect for rapid prototyping and scalable web apps.
 
 ## License
 
