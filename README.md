@@ -1,5 +1,5 @@
 
-# React + Vite + Tailwind
+# React + Vite + Tailwind CSS
 
 
 ## Tailwind CSS
