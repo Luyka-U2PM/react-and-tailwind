@@ -1,28 +1,56 @@
-
 # React + Vite + Tailwind CSS
 
+A modern starter setup for building React applications using Vite and Tailwind CSS.  
+The project is lightweight, fast, and ready for further development.
 
-## Tailwind CSS
+## Technologies
 
-This project uses [Tailwind CSS](https://tailwindcss.com/) and the `@tailwindcss/vite` plugin version ^4.2.4.
+- React 19
+- Vite 8.0.10
+- Tailwind CSS 4.1.18
+- ESLint
 
-Installed packages:
+## Installation
 
-- tailwindcss
-- @tailwindcss/vite ^4.2.4
+git clone https://github.com/Luyka-U2PM/react-and-tailwind.git
+cd react-and-tailwind
+npm install
 
+## Running the project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+npm run dev
 
-Currently, two official plugins are available:
+The application will be available at:
+http://localhost:5173
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Production build
 
-## React Compiler
+npm run build
+npm run preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tailwind CSS example
 
-## Expanding the ESLint configuration
+export default function App() {
+  return (
+    <h1 className="text-3xl font-bold text-blue-600">
+      Hello Tailwind!
+    </h1>
+  )
+}
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project structure
+
+/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+├── eslint.config.js
+└── README.md
+
+## License
+
+You may freely use this project for personal or commercial purposes.
